@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0EA37F1F18195F8D00B2E98A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA37F1E18195F8D00B2E98A /* MainViewController.m */; };
+		0EA37F211819608600B2E98A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA37F201819608600B2E98A /* Main.storyboard */; };
 		0EE4A7771819596B00E3007F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE4A7761819596B00E3007F /* Foundation.framework */; };
 		0EE4A7791819596B00E3007F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE4A7781819596B00E3007F /* CoreGraphics.framework */; };
 		0EE4A77B1819596B00E3007F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE4A77A1819596B00E3007F /* UIKit.framework */; };
@@ -33,8 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EA37F1D18195F8D00B2E98A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		0EA37F1E18195F8D00B2E98A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0EA37F1D18195F8D00B2E98A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		0EA37F1E18195F8D00B2E98A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		0EA37F201819608600B2E98A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		0EE4A7731819596B00E3007F /* githubAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE4A7761819596B00E3007F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EE4A7781819596B00E3007F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,8 +82,6 @@
 		0EE4A76A1819596B00E3007F = {
 			isa = PBXGroup;
 			children = (
-				0EA37F1D18195F8D00B2E98A /* MainViewController.h */,
-				0EA37F1E18195F8D00B2E98A /* MainViewController.m */,
 				0EE4A77C1819596B00E3007F /* githubAssignment */,
 				0EE4A7951819596B00E3007F /* githubAssignmentTests */,
 				0EE4A7751819596B00E3007F /* Frameworks */,
@@ -112,6 +112,9 @@
 		0EE4A77C1819596B00E3007F /* githubAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				0EA37F1D18195F8D00B2E98A /* MainViewController.h */,
+				0EA37F1E18195F8D00B2E98A /* MainViewController.m */,
+				0EA37F201819608600B2E98A /* Main.storyboard */,
 				0EE4A7851819596B00E3007F /* AppDelegate.h */,
 				0EE4A7861819596B00E3007F /* AppDelegate.m */,
 				0EE4A7881819596B00E3007F /* Images.xcassets */,
@@ -224,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA37F211819608600B2E98A /* Main.storyboard in Resources */,
 				0EE4A7811819596B00E3007F /* InfoPlist.strings in Resources */,
 				0EE4A7891819596B00E3007F /* Images.xcassets in Resources */,
 			);
