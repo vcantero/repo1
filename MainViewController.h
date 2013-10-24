@@ -10,6 +10,6 @@
 
 @interface MainViewController : UIViewController<UITableViewDelegate>
 
-@property (strong, nonatomic) NSArray *newArray;
+@property (strong, nonatomic) NSArray *myArray;
 
 @end
